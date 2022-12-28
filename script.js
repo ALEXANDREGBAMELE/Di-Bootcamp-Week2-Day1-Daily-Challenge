@@ -1,4 +1,4 @@
-const fruits = ["Banana", "Apples", "Oranges", "Blueberries"];
+let fruits = ["Banana", "Apples", "Oranges", "Blueberries"];
 console.log(fruits[0]);
 fruits.splice(1, 1);
 console.log(fruits);
@@ -10,7 +10,10 @@ fruits.sort();
 console.log(fruits);
 fruits.push("Kiwi");
 fruits.concat()
+    //AUTRE METHODE
+fruits = fruits.filter((value)=> value != "Apples");
+fruits.reverse
 //tri par ordre alphabetique
 console.log(fruits.sort())
 const moreFruits = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
-console.log(moreFruits[1][1].shift())
+console.log(moreFruits[1][1].shift());
