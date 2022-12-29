@@ -17,5 +17,5 @@
     const moreFruits = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
     console.log(moreFruits[1][1].shift());
 
-    //tri par ordre alphabetique inverse
+    //tri par ordre inverse
     console.log(fruits.reverse());
